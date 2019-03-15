@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    background-color: gray;
+}
+
+div input{
+    border: none;
+    width: 250px;
+    height: 5vh;
+    cursor: pointer;
+    font-size: 12pt;
+    border-bottom-left-radius: 80px;
+    border-top-left-radius: 80px;
+    padding-left: 20px;
+    border-left: 20px;
+    border: solid;
+    border-color: #662D91;
+    
+}
+
+div button {
+    background-color: #662D91;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 12pt;
+    padding-left: 0;
+}
+
+div #botao{
+    background-color: #662D91;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    width: 30px;
+    height: 6.3vh;
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+}
+
+::-webkit-input-placeholder{
+    color: rgb(189, 189, 189);
+}
+
